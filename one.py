@@ -3,7 +3,7 @@ import numpy as np
 import joblib
 
 # Load the model
-model = joblib.load("C:/Users/nirma/Downloads/archive/cancer_severity_rf_model.pkl")
+model = joblib.load("cancer_severity_rf_model.pkl")
 
 # Define a function to make predictions
 def predict_severity(input_data):
